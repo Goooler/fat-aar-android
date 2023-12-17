@@ -48,6 +48,6 @@ repositories {
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation('androidx.appcompat:appcompat:1.2.0')
+    implementation('androidx.appcompat:appcompat:1.6.1')
     implementation(name: 'fat-aar-final', ext: 'aar')
 }
