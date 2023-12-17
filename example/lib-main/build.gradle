@@ -86,7 +86,7 @@ dependencies {
     // local full aar dependency, just build in debug
     debugEmbed (name:'lib-aar-local2', ext:'aar')
     // remote dependency
-    embed 'com.google.guava:guava:20.0'
+    embed 'com.google.guava:guava:32.1.3-jre'
     // remote aar dependency
     embed ('com.facebook.fresco:fresco:1.12.0') {
         // exclude any group or module
