@@ -93,7 +93,7 @@ dependencies {
         // exclude(group:'com.facebook.soloader', module:'soloader')
     }
     // remote aar dependency
-    embed ('com.github.bumptech.glide:glide:4.11.0') {
+    embed ('com.github.bumptech.glide:glide:4.16.0') {
         // If transitive = false, it will not embed dependencies declared in pom.xml
         // If fataar.transitive = false, There is no need to declare.
         transitive = false
